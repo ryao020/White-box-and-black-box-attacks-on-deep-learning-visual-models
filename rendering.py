@@ -9,7 +9,7 @@ import sys
 if "Apple" in sys.version:
     if 'DYLD_FALLBACK_LIBRARY_PATH' in os.environ:
         os.environ['DYLD_FALLBACK_LIBRARY_PATH'] += ':/usr/lib'
-        # (JDS 2016/04/15): avoid bug on Anaconda 2.3.0 / Yosemite
+       
 
 from gym import error
 
@@ -103,19 +103,14 @@ class Viewer(object):
             buffer = pyglet.image.get_buffer_manager().get_color_buffer()
             image_data = buffer.get_image_data()
             arr = np.frombuffer(image_data.data, dtype=np.uint8)
-            # In https://github.com/openai/gym-http-api/issues/2, we
-            # discovered that someone using Xmonad on Arch was having
-            # a window of size 598 x 398, though a 600 x 400 window
-            # was requested. (Guess Xmonad was preserving a pixel for
-            # the boundary.) So we use the buffer height/width rather
-            # than the requested one.
+            
             arr = arr.reshape(buffer.height, buffer.width, 4)
             arr = arr[::-1,:,0:3]
         self.window.flip()
         self.onetime_geoms = []
         return arr if return_rgb_array else self.isopen
 
-    # Convenience
+
     def draw_circle(self, radius=10, res=30, filled=True, **attrs):
         geom = make_circle(radius=radius, res=res, filled=filled)
         _add_attrs(geom, attrs)
@@ -187,7 +182,7 @@ class Transform(Attr):
         self.set_scale(*scale)
     def enable(self):
         glPushMatrix()
-        glTranslatef(self.translation[0], self.translation[1], 0) # translate to GL loc ppint
+        glTranslatef(self.translation[0], self.translation[1], 0) 
         glRotatef(RAD2DEG * self.rotation, 0, 0, 1.0)
         glScalef(self.scale[0], self.scale[1], 1)
     def disable(self):
@@ -237,7 +232,7 @@ class FilledPolygon(Geom):
         elif len(self.v)  > 4 : glBegin(GL_POLYGON)
         else: glBegin(GL_TRIANGLES)
         for p in self.v:
-            glVertex3f(p[0], p[1],0)  # draw each vertex
+            glVertex3f(p[0], p[1],0)  
         glEnd()
 
 def make_circle(radius=10, res=30, filled=True):
@@ -286,7 +281,7 @@ class PolyLine(Geom):
     def render1(self):
         glBegin(GL_LINE_LOOP if self.close else GL_LINE_STRIP)
         for p in self.v:
-            glVertex3f(p[0], p[1],0)  # draw each vertex
+            glVertex3f(p[0], p[1],0)  
         glEnd()
     def set_linewidth(self, x):
         self.linewidth.stroke = x
@@ -316,7 +311,7 @@ class Image(Geom):
     def render1(self):
         self.img.blit(-self.width/2, -self.height/2, width=self.width, height=self.height)
 
-# ================================================================
+
 
 class SimpleImageViewer(object):
     def __init__(self, display=None, maxwidth=500):
@@ -361,7 +356,7 @@ class SimpleImageViewer(object):
         self.window.flip()
     def close(self):
         if self.isopen and sys.meta_path:
-            # ^^^ check sys.meta_path to avoid 'ImportError: sys.meta_path is None, Python is likely shutting down'
+            
             self.window.close()
             self.isopen = False
 
