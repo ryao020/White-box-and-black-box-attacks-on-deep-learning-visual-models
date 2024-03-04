@@ -108,10 +108,10 @@ def evaluate(model, env, episodes, attack_method, input_size):
                 plt.figure(figsize=(10, 5))
                 plt.subplot(1, 2, 1)
                 plt.title("Original state")
-                plt.plot(state)  # Plotting state values, you might need to adjust this based on your state representation
+                plt.plot(state)  
                 plt.subplot(1, 2, 2)
                 plt.title("Adversarial state")
-                plt.plot(adv_state)  # Plotting adversarial state values
+                plt.plot(adv_state)  
                 plt.show()
 
                 break
