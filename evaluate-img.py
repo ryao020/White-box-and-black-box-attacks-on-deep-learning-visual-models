@@ -77,26 +77,26 @@ def generate_adversarial_example(state, model):
 
     return adv_state.detach().numpy()[0]
 
-    # 可视化对抗性样本
+
     plt.figure(figsize=(10, 5))
     plt.subplot(1, 2, 1)
     plt.title("Original state")
-    plt.plot(state)  # Plotting state values, you might need to adjust this based on your state representation
+    plt.plot(state) 
     plt.subplot(1, 2, 2)
     plt.title("Adversarial state")
-    plt.plot(adv_state)  # Plotting adversarial state values
+    plt.plot(adv_state)  
     plt.show()
 
-    # 保存对抗性样本图像
+  
     plt.figure(figsize=(10, 5))
     plt.subplot(1, 2, 1)
     plt.title("Original state")
-    plt.plot(state)  # Plotting state values, you might need to adjust this based on your state representation
+    plt.plot(state)  
     plt.savefig("original_state.png")
 
     plt.subplot(1, 2, 2)
     plt.title("Adversarial state")
-    plt.plot(adv_state)  # Plotting adversarial state values
+    plt.plot(adv_state) 
     plt.savefig("adversarial_state.png")
 
 
@@ -131,10 +131,10 @@ def evaluate(model, env, episodes, attack_method, input_size):
                 plt.figure(figsize=(10, 5))
                 plt.subplot(1, 2, 1)
                 plt.title("Original state")
-                plt.plot(state)  # Plotting state values, you might need to adjust this based on your state representation
+                plt.plot(state)  
                 plt.subplot(1, 2, 2)
                 plt.title("Adversarial state")
-                plt.plot(adv_state)  # Plotting adversarial state values
+                plt.plot(adv_state)  
                 plt.show()
 
                 break
