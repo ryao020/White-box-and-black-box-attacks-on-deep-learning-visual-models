@@ -10,7 +10,7 @@ The purpose of this project is to learn and practice how to generate adversarial
 
 ## Method
 
-This project uses reinforcement learning (DRL) as the deep learning vision model and selects three game environments (Pong, Cartpole, Breakout) as the vision tasks. This project uses different DRL algorithms (Deep Q-Learning, Policy Gradients) to train DRL agents, and uses white-box attack methods (FGSM, MI-FGSM, NI-FGSM) to generate adversarial samples. The purpose is to test the adversarial samples in different Transferability between algorithms and strategies. The project also tried some novel methods to improve the transferability of adversarial examples, such as using better optimization, ensemble training, data augmentation, meta-learning, etc.
+This project uses reinforcement learning (DRL) as the deep learning vision model and selects one game environments Cartpole as the vision tasks. This project uses different DRL algorithms (Deep Q-Learning, Policy Gradients) to train DRL agents, and uses white-box attack methods (FGSM, MI-FGSM, NI-FGSM) to generate adversarial samples. The purpose is to test the adversarial samples in different Transferability between algorithms and strategies. The project also tried some novel methods to improve the transferability of adversarial examples, such as using better optimization, ensemble training, data augmentation, meta-learning, etc.
 
 ## Result
 
