@@ -1,0 +1,96 @@
+sourece_model_path:  policy_net_dqn1.pth
+target_model_path:  policy_net_dqn2.pth
+Testing the model with adversarial attacks using random method, epsilon: 0.001...
+Rewards:  [54.0, 18.0, 35.0, 29.0, 12.0, 9.0, 18.0, 25.0, 14.0, 10.0]
+Average Reward with adversarial attacks: 22.4
+Standard deviation: 13.26046756340062
+sourece_model_path:  policy_net_dqn1.pth
+target_model_path:  policy_net_dqn2.pth
+Testing the model with adversarial attacks using fgsm method, epsilon: 0.001...
+Rewards:  [9.0, 9.0, 10.0, 10.0, 10.0, 11.0, 11.0, 8.0, 10.0, 10.0]
+Average Reward with adversarial attacks: 9.8
+Standard deviation: 0.8717797887081347
+sourece_model_path:  policy_net_dqn1.pth
+target_model_path:  policy_net_dqn2.pth
+Testing the model with adversarial attacks using mifgsm method, epsilon: 0.001...
+Rewards:  [10.0, 9.0, 10.0, 10.0, 10.0, 8.0, 11.0, 10.0, 9.0, 10.0]
+Average Reward with adversarial attacks: 9.7
+Standard deviation: 0.7810249675906654
+sourece_model_path:  policy_net_dqn1.pth
+target_model_path:  policy_net_dqn2.pth
+Testing the model with adversarial attacks using nifgsm method, epsilon: 0.001...
+Rewards:  [10.0, 10.0, 9.0, 9.0, 9.0, 10.0, 10.0, 9.0, 10.0, 10.0]
+Average Reward with adversarial attacks: 9.6
+Standard deviation: 0.4898979485566356
+sourece_model_path:  policy_net_dqn1.pth
+target_model_path:  policy_net_ddqn2.pth
+Testing the model with adversarial attacks using random method, epsilon: 0.001...
+Rewards:  [22.0, 12.0, 9.0, 37.0, 13.0, 17.0, 10.0, 37.0, 15.0, 10.0]
+Average Reward with adversarial attacks: 18.2
+Standard deviation: 10.087616170334794
+sourece_model_path:  policy_net_dqn1.pth
+target_model_path:  policy_net_ddqn2.pth
+Testing the model with adversarial attacks using fgsm method, epsilon: 0.001...
+Rewards:  [9.0, 8.0, 9.0, 10.0, 9.0, 9.0, 10.0, 10.0, 10.0, 9.0]
+Average Reward with adversarial attacks: 9.3
+Standard deviation: 0.6403124237432849
+sourece_model_path:  policy_net_dqn1.pth
+target_model_path:  policy_net_ddqn2.pth
+Testing the model with adversarial attacks using mifgsm method, epsilon: 0.001...
+Rewards:  [10.0, 10.0, 10.0, 9.0, 10.0, 10.0, 9.0, 10.0, 9.0, 9.0]
+Average Reward with adversarial attacks: 9.6
+Standard deviation: 0.4898979485566356
+sourece_model_path:  policy_net_dqn1.pth
+target_model_path:  policy_net_ddqn2.pth
+Testing the model with adversarial attacks using nifgsm method, epsilon: 0.001...
+Rewards:  [9.0, 10.0, 10.0, 9.0, 8.0, 9.0, 10.0, 9.0, 9.0, 10.0]
+Average Reward with adversarial attacks: 9.3
+Standard deviation: 0.6403124237432849
+sourece_model_path:  policy_net_ddqn1.pth
+target_model_path:  policy_net_dqn2.pth
+Testing the model with adversarial attacks using random method, epsilon: 0.001...
+Rewards:  [9.0, 16.0, 14.0, 18.0, 8.0, 16.0, 12.0, 29.0, 23.0, 30.0]
+Average Reward with adversarial attacks: 17.5
+Standard deviation: 7.269800547470337
+sourece_model_path:  policy_net_ddqn1.pth
+target_model_path:  policy_net_dqn2.pth
+Testing the model with adversarial attacks using fgsm method, epsilon: 0.001...
+Rewards:  [10.0, 10.0, 9.0, 11.0, 10.0, 9.0, 10.0, 10.0, 9.0, 9.0]
+Average Reward with adversarial attacks: 9.7
+Standard deviation: 0.6403124237432849
+sourece_model_path:  policy_net_ddqn1.pth
+target_model_path:  policy_net_dqn2.pth
+Testing the model with adversarial attacks using mifgsm method, epsilon: 0.001...
+Rewards:  [9.0, 8.0, 10.0, 10.0, 9.0, 8.0, 8.0, 8.0, 10.0, 9.0]
+Average Reward with adversarial attacks: 8.9
+Standard deviation: 0.8306623862918076
+sourece_model_path:  policy_net_ddqn1.pth
+target_model_path:  policy_net_dqn2.pth
+Testing the model with adversarial attacks using nifgsm method, epsilon: 0.001...
+Rewards:  [9.0, 10.0, 10.0, 10.0, 9.0, 10.0, 10.0, 8.0, 9.0, 9.0]
+Average Reward with adversarial attacks: 9.4
+Standard deviation: 0.66332495807108
+sourece_model_path:  policy_net_ddqn1.pth
+target_model_path:  policy_net_ddqn2.pth
+Testing the model with adversarial attacks using random method, epsilon: 0.001...
+Rewards:  [20.0, 17.0, 10.0, 31.0, 11.0, 12.0, 24.0, 14.0, 10.0, 23.0]
+Average Reward with adversarial attacks: 17.2
+Standard deviation: 6.764613810115105
+sourece_model_path:  policy_net_ddqn1.pth
+target_model_path:  policy_net_ddqn2.pth
+Testing the model with adversarial attacks using fgsm method, epsilon: 0.001...
+Rewards:  [9.0, 10.0, 10.0, 8.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+Average Reward with adversarial attacks: 9.7
+Standard deviation: 0.6403124237432849
+sourece_model_path:  policy_net_ddqn1.pth
+target_model_path:  policy_net_ddqn2.pth
+Testing the model with adversarial attacks using mifgsm method, epsilon: 0.001...
+Rewards:  [9.0, 10.0, 9.0, 9.0, 9.0, 10.0, 10.0, 9.0, 10.0, 10.0]
+Average Reward with adversarial attacks: 9.5
+Standard deviation: 0.5
+sourece_model_path:  policy_net_ddqn1.pth
+target_model_path:  policy_net_ddqn2.pth
+Testing the model with adversarial attacks using nifgsm method, epsilon: 0.001...
+Rewards:  [10.0, 10.0, 10.0, 10.0, 9.0, 10.0, 10.0, 9.0, 9.0, 10.0]
+Average Reward with adversarial attacks: 9.7
+Standard deviation: 0.45825756949558394
