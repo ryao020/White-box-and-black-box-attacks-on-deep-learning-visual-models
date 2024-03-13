@@ -123,6 +123,8 @@ def test_with_adversarial_attacks(steps=100, epsilon=0.1, args=None):
         # print(f"Total Reward with adversarial attacks: {total_reward}")
 
     print("Rewards: ", rewards)
+    print(f"Average Reward with adversarial attacks: {np.mean(rewards)}")
+    print(f"Standard deviation: {np.std(rewards)}")
     env.close()
 
 

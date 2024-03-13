@@ -1,180 +1,80 @@
 model_path:  policy_net_dqn1.pth
-Testing the model with adversarial attacks using fgsm method, epsilon: 0.0001...
-Rewards:  [10.0, 9.0, 10.0, 10.0, 10.0, 8.0, 9.0, 9.0, 10.0, 10.0]
-model_path:  policy_net_dqn1.pth
-Testing the model with adversarial attacks using mifgsm method, epsilon: 0.0001...
-Rewards:  [9.0, 9.0, 10.0, 9.0, 11.0, 9.0, 11.0, 10.0, 9.0, 8.0]
-model_path:  policy_net_dqn1.pth
-Testing the model with adversarial attacks using nifgsm method, epsilon: 0.0001...
-Rewards:  [9.0, 10.0, 9.0, 10.0, 9.0, 9.0, 10.0, 8.0, 9.0, 9.0]
+Testing the model with adversarial attacks using random method, epsilon: 0.001...
+Rewards:  [67.0, 23.0, 16.0, 27.0, 14.0, 19.0, 12.0, 20.0, 12.0, 14.0]
+Average Reward with adversarial attacks: 22.4
+Standard deviation: 15.576905982896601
 model_path:  policy_net_dqn1.pth
 Testing the model with adversarial attacks using fgsm method, epsilon: 0.001...
-Rewards:  [8.0, 10.0, 10.0, 9.0, 10.0, 9.0, 10.0, 9.0, 10.0, 8.0]
+Rewards:  [10.0, 9.0, 9.0, 9.0, 10.0, 10.0, 8.0, 8.0, 9.0, 9.0]
+Average Reward with adversarial attacks: 9.1
+Standard deviation: 0.7000000000000001
 model_path:  policy_net_dqn1.pth
 Testing the model with adversarial attacks using mifgsm method, epsilon: 0.001...
-Rewards:  [10.0, 9.0, 10.0, 10.0, 9.0, 9.0, 10.0, 10.0, 8.0, 9.0]
+Rewards:  [9.0, 11.0, 10.0, 9.0, 10.0, 9.0, 10.0, 10.0, 10.0, 9.0]
+Average Reward with adversarial attacks: 9.7
+Standard deviation: 0.6403124237432849
 model_path:  policy_net_dqn1.pth
 Testing the model with adversarial attacks using nifgsm method, epsilon: 0.001...
-Rewards:  [10.0, 10.0, 8.0, 11.0, 9.0, 10.0, 8.0, 9.0, 9.0, 10.0]
-model_path:  policy_net_dqn1.pth
-Testing the model with adversarial attacks using fgsm method, epsilon: 0.01...
-Rewards:  [11.0, 10.0, 9.0, 10.0, 8.0, 10.0, 10.0, 8.0, 10.0, 9.0]
-model_path:  policy_net_dqn1.pth
-Testing the model with adversarial attacks using mifgsm method, epsilon: 0.01...
-Rewards:  [8.0, 9.0, 10.0, 8.0, 10.0, 9.0, 10.0, 9.0, 10.0, 10.0]
-model_path:  policy_net_dqn1.pth
-Testing the model with adversarial attacks using nifgsm method, epsilon: 0.01...
-Rewards:  [10.0, 8.0, 9.0, 10.0, 8.0, 10.0, 10.0, 9.0, 11.0, 10.0]
-model_path:  policy_net_dqn1.pth
-Testing the model with adversarial attacks using fgsm method, epsilon: 0.1...
-Rewards:  [10.0, 9.0, 10.0, 9.0, 9.0, 8.0, 9.0, 9.0, 10.0, 8.0]
-model_path:  policy_net_dqn1.pth
-Testing the model with adversarial attacks using mifgsm method, epsilon: 0.1...
-Rewards:  [10.0, 8.0, 10.0, 10.0, 10.0, 10.0, 10.0, 9.0, 11.0, 10.0]
-model_path:  policy_net_dqn1.pth
-Testing the model with adversarial attacks using nifgsm method, epsilon: 0.1...
-Rewards:  [9.0, 8.0, 9.0, 10.0, 10.0, 9.0, 10.0, 9.0, 10.0, 10.0]
-model_path:  policy_net_dqn1.pth
-Testing the model with adversarial attacks using fgsm method, epsilon: 1.0...
-Rewards:  [10.0, 9.0, 8.0, 9.0, 9.0, 10.0, 9.0, 10.0, 9.0, 11.0]
-model_path:  policy_net_dqn1.pth
-Testing the model with adversarial attacks using mifgsm method, epsilon: 1.0...
-Rewards:  [9.0, 10.0, 9.0, 9.0, 11.0, 9.0, 11.0, 10.0, 9.0, 10.0]
-model_path:  policy_net_dqn1.pth
-Testing the model with adversarial attacks using nifgsm method, epsilon: 1.0...
-Rewards:  [10.0, 10.0, 9.0, 9.0, 9.0, 9.0, 11.0, 9.0, 10.0, 10.0]
+Rewards:  [9.0, 9.0, 10.0, 8.0, 9.0, 10.0, 9.0, 10.0, 10.0, 10.0]
+Average Reward with adversarial attacks: 9.4
+Standard deviation: 0.66332495807108
 model_path:  policy_net_dqn2.pth
-Testing the model with adversarial attacks using fgsm method, epsilon: 0.0001...
-Rewards:  [10.0, 9.0, 9.0, 10.0, 9.0, 9.0, 10.0, 9.0, 10.0, 9.0]
-model_path:  policy_net_dqn2.pth
-Testing the model with adversarial attacks using mifgsm method, epsilon: 0.0001...
-Rewards:  [9.0, 10.0, 8.0, 9.0, 10.0, 11.0, 9.0, 10.0, 10.0, 10.0]
-model_path:  policy_net_dqn2.pth
-Testing the model with adversarial attacks using nifgsm method, epsilon: 0.0001...
-Rewards:  [10.0, 8.0, 10.0, 9.0, 9.0, 9.0, 10.0, 10.0, 10.0, 10.0]
+Testing the model with adversarial attacks using random method, epsilon: 0.001...
+Rewards:  [30.0, 13.0, 16.0, 12.0, 18.0, 22.0, 31.0, 22.0, 38.0, 19.0]
+Average Reward with adversarial attacks: 22.1
+Standard deviation: 8.018104514160438
 model_path:  policy_net_dqn2.pth
 Testing the model with adversarial attacks using fgsm method, epsilon: 0.001...
-Rewards:  [10.0, 9.0, 10.0, 10.0, 10.0, 10.0, 9.0, 10.0, 10.0, 9.0]
+Rewards:  [9.0, 11.0, 10.0, 10.0, 10.0, 10.0, 9.0, 9.0, 9.0, 10.0]
+Average Reward with adversarial attacks: 9.7
+Standard deviation: 0.6403124237432849
 model_path:  policy_net_dqn2.pth
 Testing the model with adversarial attacks using mifgsm method, epsilon: 0.001...
-Rewards:  [9.0, 10.0, 9.0, 9.0, 9.0, 9.0, 10.0, 8.0, 9.0, 9.0]
+Rewards:  [10.0, 9.0, 9.0, 8.0, 10.0, 10.0, 10.0, 9.0, 8.0, 9.0]
+Average Reward with adversarial attacks: 9.2
+Standard deviation: 0.7483314773547883
 model_path:  policy_net_dqn2.pth
 Testing the model with adversarial attacks using nifgsm method, epsilon: 0.001...
-Rewards:  [9.0, 10.0, 8.0, 11.0, 9.0, 9.0, 9.0, 10.0, 9.0, 10.0]
-model_path:  policy_net_dqn2.pth
-Testing the model with adversarial attacks using fgsm method, epsilon: 0.01...
-Rewards:  [8.0, 9.0, 11.0, 10.0, 10.0, 8.0, 10.0, 9.0, 9.0, 10.0]
-model_path:  policy_net_dqn2.pth
-Testing the model with adversarial attacks using mifgsm method, epsilon: 0.01...
-Rewards:  [10.0, 10.0, 10.0, 9.0, 9.0, 8.0, 10.0, 9.0, 9.0, 9.0]
-model_path:  policy_net_dqn2.pth
-Testing the model with adversarial attacks using nifgsm method, epsilon: 0.01...
-Rewards:  [10.0, 8.0, 10.0, 10.0, 10.0, 10.0, 9.0, 10.0, 9.0, 11.0]
-model_path:  policy_net_dqn2.pth
-Testing the model with adversarial attacks using fgsm method, epsilon: 0.1...
-Rewards:  [10.0, 9.0, 9.0, 10.0, 10.0, 9.0, 10.0, 8.0, 10.0, 10.0]
-model_path:  policy_net_dqn2.pth
-Testing the model with adversarial attacks using mifgsm method, epsilon: 0.1...
-Rewards:  [8.0, 9.0, 10.0, 10.0, 9.0, 9.0, 10.0, 9.0, 10.0, 10.0]
-model_path:  policy_net_dqn2.pth
-Testing the model with adversarial attacks using nifgsm method, epsilon: 0.1...
-Rewards:  [9.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 9.0, 9.0, 9.0]
-model_path:  policy_net_dqn2.pth
-Testing the model with adversarial attacks using fgsm method, epsilon: 1.0...
-Rewards:  [10.0, 8.0, 9.0, 10.0, 9.0, 8.0, 9.0, 10.0, 10.0, 9.0]
-model_path:  policy_net_dqn2.pth
-Testing the model with adversarial attacks using mifgsm method, epsilon: 1.0...
-Rewards:  [10.0, 10.0, 11.0, 8.0, 10.0, 9.0, 8.0, 10.0, 10.0, 10.0]
-model_path:  policy_net_dqn2.pth
-Testing the model with adversarial attacks using nifgsm method, epsilon: 1.0...
-Rewards:  [9.0, 10.0, 10.0, 9.0, 10.0, 9.0, 9.0, 9.0, 10.0, 9.0]
+Rewards:  [9.0, 10.0, 9.0, 8.0, 10.0, 9.0, 8.0, 9.0, 10.0, 10.0]
+Average Reward with adversarial attacks: 9.2
+Standard deviation: 0.7483314773547883
 model_path:  policy_net_ddqn1.pth
-Testing the model with adversarial attacks using fgsm method, epsilon: 0.0001...
-Rewards:  [10.0, 9.0, 10.0, 9.0, 10.0, 9.0, 10.0, 8.0, 10.0, 10.0]
-model_path:  policy_net_ddqn1.pth
-Testing the model with adversarial attacks using mifgsm method, epsilon: 0.0001...
-Rewards:  [10.0, 10.0, 9.0, 9.0, 9.0, 10.0, 8.0, 9.0, 9.0, 8.0]
-model_path:  policy_net_ddqn1.pth
-Testing the model with adversarial attacks using nifgsm method, epsilon: 0.0001...
-Rewards:  [9.0, 9.0, 9.0, 10.0, 10.0, 9.0, 8.0, 10.0, 10.0, 9.0]
+Testing the model with adversarial attacks using random method, epsilon: 0.001...
+Rewards:  [8.0, 10.0, 9.0, 10.0, 8.0, 12.0, 11.0, 9.0, 14.0, 17.0]
+Average Reward with adversarial attacks: 10.8
+Standard deviation: 2.7129319932501073
 model_path:  policy_net_ddqn1.pth
 Testing the model with adversarial attacks using fgsm method, epsilon: 0.001...
-Rewards:  [10.0, 8.0, 10.0, 9.0, 10.0, 10.0, 9.0, 10.0, 9.0, 10.0]
+Rewards:  [10.0, 10.0, 9.0, 10.0, 10.0, 9.0, 8.0, 8.0, 10.0, 8.0]
+Average Reward with adversarial attacks: 9.2
+Standard deviation: 0.8717797887081348
 model_path:  policy_net_ddqn1.pth
 Testing the model with adversarial attacks using mifgsm method, epsilon: 0.001...
-Rewards:  [10.0, 9.0, 9.0, 9.0, 9.0, 9.0, 10.0, 8.0, 10.0, 10.0]
+Rewards:  [9.0, 9.0, 10.0, 10.0, 10.0, 10.0, 9.0, 10.0, 9.0, 10.0]
+Average Reward with adversarial attacks: 9.6
+Standard deviation: 0.4898979485566356
 model_path:  policy_net_ddqn1.pth
 Testing the model with adversarial attacks using nifgsm method, epsilon: 0.001...
-Rewards:  [10.0, 10.0, 11.0, 9.0, 9.0, 9.0, 10.0, 11.0, 9.0, 8.0]
-model_path:  policy_net_ddqn1.pth
-Testing the model with adversarial attacks using fgsm method, epsilon: 0.01...
-Rewards:  [10.0, 10.0, 9.0, 10.0, 10.0, 9.0, 11.0, 10.0, 9.0, 9.0]
-model_path:  policy_net_ddqn1.pth
-Testing the model with adversarial attacks using mifgsm method, epsilon: 0.01...
-Rewards:  [10.0, 8.0, 10.0, 9.0, 8.0, 10.0, 10.0, 8.0, 10.0, 10.0]
-model_path:  policy_net_ddqn1.pth
-Testing the model with adversarial attacks using nifgsm method, epsilon: 0.01...
-Rewards:  [9.0, 8.0, 10.0, 9.0, 10.0, 10.0, 10.0, 9.0, 8.0, 9.0]
-model_path:  policy_net_ddqn1.pth
-Testing the model with adversarial attacks using fgsm method, epsilon: 0.1...
-Rewards:  [8.0, 10.0, 10.0, 9.0, 9.0, 10.0, 10.0, 10.0, 8.0, 8.0]
-model_path:  policy_net_ddqn1.pth
-Testing the model with adversarial attacks using mifgsm method, epsilon: 0.1...
-Rewards:  [10.0, 9.0, 9.0, 10.0, 10.0, 10.0, 9.0, 9.0, 10.0, 10.0]
-model_path:  policy_net_ddqn1.pth
-Testing the model with adversarial attacks using nifgsm method, epsilon: 0.1...
-Rewards:  [9.0, 9.0, 9.0, 10.0, 9.0, 9.0, 9.0, 10.0, 10.0, 8.0]
-model_path:  policy_net_ddqn1.pth
-Testing the model with adversarial attacks using fgsm method, epsilon: 1.0...
-Rewards:  [9.0, 9.0, 10.0, 8.0, 9.0, 10.0, 9.0, 10.0, 10.0, 9.0]
-model_path:  policy_net_ddqn1.pth
-Testing the model with adversarial attacks using mifgsm method, epsilon: 1.0...
-Rewards:  [9.0, 10.0, 9.0, 9.0, 9.0, 9.0, 9.0, 10.0, 10.0, 10.0]
-model_path:  policy_net_ddqn1.pth
-Testing the model with adversarial attacks using nifgsm method, epsilon: 1.0...
-Rewards:  [9.0, 10.0, 9.0, 9.0, 8.0, 10.0, 8.0, 8.0, 8.0, 10.0]
+Rewards:  [10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 9.0, 10.0, 10.0]
+Average Reward with adversarial attacks: 9.9
+Standard deviation: 0.3
 model_path:  policy_net_ddqn2.pth
-Testing the model with adversarial attacks using fgsm method, epsilon: 0.0001...
-Rewards:  [10.0, 9.0, 8.0, 9.0, 8.0, 8.0, 10.0, 10.0, 9.0, 10.0]
-model_path:  policy_net_ddqn2.pth
-Testing the model with adversarial attacks using mifgsm method, epsilon: 0.0001...
-Rewards:  [8.0, 9.0, 8.0, 11.0, 10.0, 9.0, 9.0, 9.0, 8.0, 10.0]
-model_path:  policy_net_ddqn2.pth
-Testing the model with adversarial attacks using nifgsm method, epsilon: 0.0001...
-Rewards:  [10.0, 10.0, 8.0, 9.0, 9.0, 8.0, 10.0, 9.0, 10.0, 9.0]
+Testing the model with adversarial attacks using random method, epsilon: 0.001...
+Rewards:  [12.0, 25.0, 34.0, 15.0, 24.0, 10.0, 13.0, 10.0, 12.0, 15.0]
+Average Reward with adversarial attacks: 17.0
+Standard deviation: 7.576278769950324
 model_path:  policy_net_ddqn2.pth
 Testing the model with adversarial attacks using fgsm method, epsilon: 0.001...
-Rewards:  [9.0, 9.0, 10.0, 8.0, 10.0, 10.0, 10.0, 8.0, 9.0, 10.0]
-model_path:  policy_net_ddqn2.pth
-Testing the model with adversarial attacks using mifgsm method, epsilon: 0.001...
-Rewards:  [10.0, 10.0, 9.0, 9.0, 9.0, 9.0, 10.0, 10.0, 10.0, 9.0]
-model_path:  policy_net_ddqn2.pth
-Testing the model with adversarial attacks using nifgsm method, epsilon: 0.001...
-Rewards:  [9.0, 11.0, 11.0, 10.0, 10.0, 8.0, 9.0, 10.0, 8.0, 10.0]
-model_path:  policy_net_ddqn2.pth
-Testing the model with adversarial attacks using fgsm method, epsilon: 0.01...
-Rewards:  [9.0, 10.0, 10.0, 10.0, 9.0, 10.0, 10.0, 10.0, 9.0, 10.0]
-model_path:  policy_net_ddqn2.pth
-Testing the model with adversarial attacks using mifgsm method, epsilon: 0.01...
-Rewards:  [9.0, 10.0, 10.0, 9.0, 8.0, 8.0, 10.0, 9.0, 9.0, 8.0]
-model_path:  policy_net_ddqn2.pth
-Testing the model with adversarial attacks using nifgsm method, epsilon: 0.01...
-Rewards:  [8.0, 10.0, 9.0, 10.0, 9.0, 10.0, 10.0, 10.0, 10.0, 10.0]
-model_path:  policy_net_ddqn2.pth
-Testing the model with adversarial attacks using fgsm method, epsilon: 0.1...
-Rewards:  [9.0, 9.0, 9.0, 8.0, 10.0, 10.0, 11.0, 9.0, 10.0, 10.0]
-model_path:  policy_net_ddqn2.pth
-Testing the model with adversarial attacks using mifgsm method, epsilon: 0.1...
-Rewards:  [10.0, 10.0, 9.0, 10.0, 9.0, 9.0, 9.0, 8.0, 9.0, 10.0]
-model_path:  policy_net_ddqn2.pth
-Testing the model with adversarial attacks using nifgsm method, epsilon: 0.1...
-Rewards:  [9.0, 10.0, 10.0, 10.0, 11.0, 8.0, 10.0, 10.0, 10.0, 9.0]
-model_path:  policy_net_ddqn2.pth
-Testing the model with adversarial attacks using fgsm method, epsilon: 1.0...
 Rewards:  [9.0, 10.0, 10.0, 10.0, 10.0, 10.0, 9.0, 10.0, 9.0, 9.0]
+Average Reward with adversarial attacks: 9.6
+Standard deviation: 0.4898979485566356
 model_path:  policy_net_ddqn2.pth
-Testing the model with adversarial attacks using mifgsm method, epsilon: 1.0...
-Rewards:  [9.0, 10.0, 9.0, 10.0, 11.0, 11.0, 10.0, 10.0, 10.0, 10.0]
+Testing the model with adversarial attacks using mifgsm method, epsilon: 0.001...
+Rewards:  [9.0, 9.0, 9.0, 9.0, 9.0, 9.0, 9.0, 9.0, 8.0, 9.0]
+Average Reward with adversarial attacks: 8.9
+Standard deviation: 0.3
 model_path:  policy_net_ddqn2.pth
-Testing the model with adversarial attacks using nifgsm method, epsilon: 1.0...
-Rewards:  [10.0, 10.0, 10.0, 10.0, 10.0, 9.0, 10.0, 10.0, 9.0, 8.0]
+Testing the model with adversarial attacks using nifgsm method, epsilon: 0.001...
+Rewards:  [9.0, 8.0, 10.0, 9.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+Average Reward with adversarial attacks: 9.6
+Standard deviation: 0.6633249580710799

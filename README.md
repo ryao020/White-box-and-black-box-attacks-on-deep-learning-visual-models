@@ -48,7 +48,7 @@ This project aims to explore adversarial attacks on DRL agents and assess the tr
 Run the following command to train the DRL agent:
 
 ```bash
-python3 train_agent.py
+python3 train_agent_dqn.py
 ```
 
 ### Running Adversarial Attacks
@@ -56,7 +56,7 @@ python3 train_agent.py
 Modify the `attack.py` script as needed and execute it:
 
 ```bash
-python3 attack.py
+python3 white_box_attack.py
 ```
 
 ## Results
